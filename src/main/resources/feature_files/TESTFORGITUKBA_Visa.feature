@@ -48,5 +48,20 @@ Feature: Confirm whether visa is reuired to visit UK
       |Australia|
       |Canada   |
 
+  Scenario Outline: Register by entering only User Information
+    Given I am on the Newtours Home page
+    When I click on the Register link
+    And I enter "<Username>", password and confirm as "<Password>"
+    And enter "<CountryName>"
+    And I click submit button
+    Then confirmation page is displayed with my "<Username>"
+
+    Examples:
+      | Username | Password      | CountryName    |
+      | Jose     | password120   | ANGOLA         |
+      | Late     | password2200  | ALBANIA        |
+      | Pause    | 2929swo983920 | UNITED KINGDOM |
+      | Andy     | WORDword120   | HAITI          |
+
 
 
