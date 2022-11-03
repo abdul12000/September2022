@@ -25,3 +25,12 @@ Feature: newtours
       | Late     | password2200  | ALBANIA        |
       | Pause    | 2929swo983920 | UNITED KINGDOM |
       | Andy     | WORDword120   | HAITI          |
+
+@Testing
+  Scenario:Flight Finder page
+    Given I am on the Newtours Home pageo
+    When I click on the Flights link on the left side menuo
+    Then The Flight Finder Page should be displayedo
+    And “One Way” Flight details type is selected by defaulto
+    And “January 1” should be displayed by default for On and returningo
+    And “Economy Class” should be selected as default for the Service class

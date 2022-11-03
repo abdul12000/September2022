@@ -16,7 +16,7 @@ Feature: Confirm whether visa is reuired to visit UK
     And I state I am intending to stay for more than 6 months
     And I click on the Continue button
     Then I will be informed "You’ll need a visa to study in the UK"
-@scen2
+@scen
   Scenario: Japan nationalities coming to UK for Tourism do not require Visa
   When I provide nationality of "Japan"
   And I click on the Continue button
