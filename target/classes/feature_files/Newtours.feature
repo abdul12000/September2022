@@ -22,6 +22,6 @@ Feature: newtours
     Examples:
       | Username | Password      | CountryName    |
       | Jose     | password120   | ANGOLA         |
-      | Late     | password2200  | ALBANIA        |
-      | Pause    | 2929swo983920 | UNITED KINGDOM |
-      | Andy     | WORDword120   | HAITI          |
+#      | Late     | password2200  | ALBANIA        |
+#      | Pause    | 2929swo983920 | UNITED KINGDOM |
+#      | Andy     | WORDword120   | HAITI          |

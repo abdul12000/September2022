@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="26.738">
+    <testcase classname="NopcommerceFrontend" name="nopcommerce frontend Add item to  shopping basket" time="25.816">
+        <system-out><![CDATA[Given I am on the "https://demo.nopcommerce.com/" website...................passed
+When I navigate to Desktops screen..........................................passed
+And I choose "Build your own computer"......................................passed
+And I click Add to cart button without choosing RAM size and HDD capacity...passed
+Then error messages "Please select RAM" and "Please select HDD" are displayed.passed
+When I choose 2 GB Ram and 320 GB HDD.......................................passed
+And I click Add to cart button..............................................passed
+Then "The product has been added to your " message is displayed.............passed
+]]></system-out>
+    </testcase>
+</testsuite>
