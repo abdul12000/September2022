@@ -1,6 +1,7 @@
 package org.example;
 
 public class MainG_NestedIf {
+
     public static void main(String[] args) {
         int dayOfTheWeek=10;
         if(dayOfTheWeek ==1){

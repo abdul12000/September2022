@@ -1,6 +1,8 @@
 package org.example;
 
 public class Main {
+
+
     //Short cut to get public static void main method is to type "PSVM" and press enter button
     public static void main(String[] args) {
         //Short cut to get System.out.println is to type "sout" and press enter button
